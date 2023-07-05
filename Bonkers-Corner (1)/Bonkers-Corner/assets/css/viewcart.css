@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+table{
+    border: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+.size-container{
+    max-width: 1440px;
+    margin: auto;
+    padding-inline: 15px;
+    padding-block-start: 1.875rem;
+    padding-block-end: 3.125rem;
+}
+.heading-cart{
+    font-size: 2.375rem;
+    margin-bottom: 3.125rem;
+    line-height: 1.2;
+    color: rgb(70, 69, 69);
+}
+.cart-container{
+    position: relative;
+    display: grid;
+   width: 100%;
+    margin-bottom: 80px;
+grid-template-columns: 1fr 1fr 1fr;
+}
+.pogress-container{
+    position: relative;
+    
+    padding-block: 6px;
+}
+
+.pogress-container::after{
+    content: "";
+    opacity: 0.4;
+    position: absolute;
+   width: 100%;
+    margin-top: 5px;
+
+    border-bottom: 2px solid rgb(153, 149, 149);
+}
+.active::after{
+   opacity: 1; 
+}
+.pogress-container a{
+    text-decoration: none;
+    color: black;
+}
+.pogress-container a span{
+margin-bottom: 7px;
+    font-weight: bolder;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: grey;
+}
+.pogress-container a span i{
+    margin-right: 10px;
+}
+
+.pogress-container a p{
+    font-size: 0.7rem;
+    margin-top: 5px;
+    color: rgb(143, 141, 141);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#sec1 table{
+    width: 100%;
+    border-collapse:collapse ;
+   
+}
+
+#sec1 table thead tr th{
+    background-color: HSL(210,17%,98%);
+    padding-block: 15px;
+    border-bottom: 1px solid;
+    border-bottom-color:rgba(205, 204, 204, 0.504) ;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 20px;
+    border-spacing:0 ;
+
+}
+.tb-child1{
+    display: flex;
+    padding-block: 15px;
+    gap: 30px;
+}
+del{
+    display: block;
+    color: #cf2929;
+}
+ins{
+    text-decoration: none;
+}
+#sec1 table tbody tr td{
+    border-bottom: 1px solid rgba(205, 204, 204, 0.504) ;
+}
+#sec1 table tbody tr td:nth-child(4){
+    font-weight: 700;
+  
+}
+
+
+
+
+
+
+
+#sec2{
+    margin-top: 40px;
+}
+#sec2 div input{
+    padding: 0.625rem 0.8125rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border:  1px solid rgba(205, 204, 204, 0.504);
+}
+.btn{
+    padding: 0.625rem 1.0625rem;
+    line-height: 2;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: .75rem;
+    font-weight: 400;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    border: none;
+}
+.table-class{
+    /* float: right; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.table-class h3{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.table-class table {
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.table-class table tr th{
+    border:  1px solid rgba(205, 204, 204, 0.504);
+    padding: 15px 25px;
+    font-size: 12px;
+    background-color: HSL(210,17%,98%);
+    letter-spacing: 4;
+}
+.table-class table tr td{
+    border:  1px solid rgba(205, 204, 204, 0.504);
+    padding: 15px 25px;
+}
+.table-class div a{
+    display: block;
+    color:  #fff;
+    background-color:rgba(0, 0, 0, 0.858);
+    padding:1.25rem;
+    font-size: .828rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 2px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s ease;
+   
+}
+.table-class div a:hover{
+   background-color: black;
+}
+
+
+
+
+.product-qty {
+    display:     flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .product-qty button {
+   
+    width:  20px;
+    height: 20px;
+    display:         flex;
+    justify-content: center;
+    align-items:     center;
+  }
+  .remove{
+    font-size: 0.8rem;
+  }
+  
+  /* .product-qty button:active,
+  .product-close-btn:active ion-icon {
+     transform: scale(0.95); }
+   */
+  /* .product-qty button ion-icon {
+    --ionicon-stroke-width: 60px;
+    font-size: 10px;
+  } */
+  /* .remove{
+    transition:trasnform cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-duration: 2s;
+    animation-delay: 2s;
+  }
+.remove:hover{
+    animation-name: bounce;
+
+    
+} */
+
+ 

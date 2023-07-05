@@ -1,0 +1,125 @@
+
+        /* CSS for Multiple Product Wishlist Page */
+
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .heading {
+            height: 100px;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .heading h1 {
+            font-size: 24px;
+            color: #333;
+            text-transform: uppercase;
+        }
+
+
+        .product-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Style the product row container */
+        .za-product-row {
+            width: 300px;
+            background-color: #f7f7f7;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+
+        /* Style the primary and secondary images */
+        .za-primary-img,
+        .za-secondary-img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        /* Style the product information */
+        .za-product-info {
+            margin-top: 12px;
+        }
+
+        .za-product-info p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .za-product-info h5 {
+            font-size: 16px;
+            color: #333;
+            margin-top: 8px;
+        }
+
+        /* Style the heart icon */
+        .za-heart-icon {
+            text-align: right;
+            margin-top: 8px;
+        }
+
+        .fa-regular.fa-heart {
+            color: #ff4081;
+        }
+
+        /* Style the product price */
+        .za-product-price {
+            margin-top: 12px;
+        }
+
+        .za-product-price p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        /* Style the price discount */
+        .price-discount {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+        }
+
+        .price-discount h5 {
+            font-size: 16px;
+            color: #333;
+            margin-right: 8px;
+        }
+
+        /* Style the select option */
+        .za-option {
+            display: flex;
+            align-items: center;
+            margin-top: 12px;
+        }
+
+        .za-option p {
+            font-size: 14px;
+            color: #333;
+            margin-right: 8px;
+        }
+
+        .fa-regular.fa-heart {
+            color: #333;
+            font-size: 22px;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 400px) {
+            .za-product-row {
+                width: 100%;
+            }
+        }
+    

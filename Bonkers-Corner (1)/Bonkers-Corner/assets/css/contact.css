@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto:wght@100;300;400;700&display=swap');
+
+html,body{
+    margin:0;
+    padding:0;
+    font-family: "Roboto",sans-serif;
+    width: 100%;
+
+}
+.ab-contact-title{
+    padding:10px 30px;
+}
+.ab-contact-title h1{
+    color: #54595f;
+    font-size: 60px;
+    font-weight: 800;
+}
+.ab-contact-help{
+    padding:10px 30px;
+}
+.ab-contact-help h2{
+    font-size:32px;
+    color: #54595f;
+    font-weight: 700;
+
+}
+.ab-contact-help p{
+    color: #54595f;
+    optecity:0.8;
+
+}
+.ab-contact-help p span{
+    color: black;
+    font-weight:800;
+}
+.ab-contact-details{
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content: space-between;
+    font-weight: 600;
+    color: #54595f;
+}
+.ab-contact-details p{
+    padding: 3px;
+}
+
+.ab-whatsapp{
+    width: 200px;
+    position: relative;
+    top:18px;
+}
+.ab-service-details span {
+    color: black;
+}
+.ab-contact-details h3 {
+    font-size: 25px;
+}
+.ab-presss-details span {
+    color:black;
+}
+.btn-tickit{
+    padding: 10px 30px;
+    color:white;
+    background: black;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .ab-contact-details{
+        flex-direction:column;
+    }
+}

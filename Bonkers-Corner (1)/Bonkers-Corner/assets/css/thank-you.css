@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.thank-you {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+.thank-you h5 {
+  border: 1px solid orange;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+}
+.sub-thank-you {
+  width: 50%;
+  margin-left: 396px;
+}
+
+@media (max-width: 768px) {
+  .thank-you {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  .thank-you h5 {
+    font-size: 16px;
+  }
+  .sub-thank-you {
+    width: 100%;
+    margin-left: 0;
+    padding: 0px 16px;
+  }
+}

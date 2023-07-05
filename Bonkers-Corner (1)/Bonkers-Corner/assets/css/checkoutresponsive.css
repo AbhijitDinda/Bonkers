@@ -1,0 +1,33 @@
+@media screen and (max-width:1024px){
+    .bill-ship{
+       display: flex;
+       flex-direction: column;
+    }
+    .bill-ship p{
+        width: 100%;
+    }
+   .cart-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .pogress-container::after {
+    content: "";
+   
+    position: absolute;
+    height: 100%;
+    margin-top: 5px;
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    border: none;
+    
+    background: rgb(153, 149, 149);
+    /* border: 1px solid rgb(153, 149, 149); */
+}
+.pogress-container a p{
+    display: none;
+}
+.pogress-container{
+    padding-left: 20px;
+}
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width:1024px) {
+    .pogress-container::after {
+        content: "";
+       
+        position: absolute;
+        height: 100%;
+        margin-top: 5px;
+        bottom: 0;
+        left: 0;
+        width: 3px;
+        border: none;
+        
+        background: rgb(153, 149, 149);
+    }
+    .cart-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr ; */
+       
+    }
+    .pogress-container{
+        padding-left: 20px;
+    }
+    .pogress-container a p {
+        display: none;
+    }
+    .table-class{
+        float: none;
+    }
+   
+}
+@media screen and (max-width:770px){
+
+#sec1 table thead tr th{
+   
+    font-size: 0.6rem;
+}
+#sec1 table tbody{
+    font-size: 0.9rem;
+}
+}
+@media screen and (max-width:430px) {
+    #sec1 table thead{
+        display: none;
+    }
+    #sec1 table tbody tr td{
+        border: none;
+    }
+    .tb-child1{
+        flex-direction: column;
+        padding: 0;
+    }
+    #sec1 table tbody tr td:nth-child(2),:nth-child(3){
+        
+        font-size: 0.8rem;
+    }
+    #sec1 table tbody tr{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
